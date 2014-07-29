@@ -4,7 +4,7 @@ require 'hatchet/tasks'
 
 S3_BUCKET_NAME  = "heroku-buildpack-ruby"
 VENDOR_URL      = "https://s3.amazonaws.com/#{S3_BUCKET_NAME}"
-GSL_VENDOR_URL = "https://s3.amazonaws.com/gsl_bin/gsl-1.15.tgz"
+GSL_VENDOR_URL = "https://s3.amazonaws.com/gsl_bin/gsl-1.16.tgz"
 
 def s3_tools_dir
   File.expand_path("../support/s3", __FILE__)
